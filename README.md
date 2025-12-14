@@ -55,11 +55,17 @@ Each subject follows a similar layout:
    Generate mutants using external tools ([`mutmut`](https://github.com/boxed/mutmut) and [`Major`](https://mutation-testing.org/)) and place them into the expected directory structure.
 
 2. **Run per-subject experiments**  
-   Use subject-specific raw result scripts (e.g., get_raw_results_*) to run PSALM and baseline strategies.
+   Use subject-specific raw result scripts (e.g., `get_raw_results_*.java` or `get_raw_results_*.py`) to run PSALM and baseline strategies.
 
 3. **Aggregate results**  
    Run scripts under `RQ1/`, `RQ2/`, and `RQ3/` to compute statistics and generate tables/figures.
 
+---
+## Quick start
+
+- Java experiments: run `java/<subject>/raw_results/get_raw_results_*.java`.
+- Python experiments: run `python/<subject>/raw_results/get_raw_results_*.py`.
+- Mutants must be generated externally before running experiments.
 ---
 
 ## Notes on usage
