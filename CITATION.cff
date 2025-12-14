@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it as below."
+title: "PSALM: Experimental Code for Metamorphic Testing"
+version: artifact-v2
+doi: 10.5281/zenodo.17926177
+date-released: 2025-12-14
+authors:
+  - family-names: Zhou
+    given-names: Zenghui
+    # orcid: https://orcid.org/xxxx-xxxx-xxxx-xxxx  # 可选
+repository-code: https://github.com/MaxwelsDonc/PSALM-official
+license: MIT
