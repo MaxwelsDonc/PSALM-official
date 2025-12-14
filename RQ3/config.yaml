@@ -1,0 +1,40 @@
+projects:
+  - name: "jackson_project"
+    path: "java/src/main/java/paper/pss/exp/jackson_project"
+    partition_num: 6
+    mutants: [ "mutant82", "mutant81", "mutant61", "mutant83", "mutant5", "mutant2", "mutant64", "mutant85", "mutant88", "mutant65", "mutant103", "mutant105", "mutant104", "mutant38", "mutant106", "mutant109", "mutant108", "mutant121", "mutant120", "mutant122", "mutant51", "mutant50", "mutant91", "caseStudy86", "mutant79", "mutant34", "mutant56", "mutant78", "mutant37", "mutant59", "mutant58", "mutant52", "mutant33", "mutant55", "mutant77", "mutant32", "mutant54", "mutant76", "mutant113", "mutant115", "mutant118", "mutant49", "mutant119", "caseStudy110", "mutant112"]
+
+  - name: "jfreeChart_project"
+    path: "java/src/main/java/paper/pss/exp/jfreeChart_project"
+    partition_num: 4
+    mutants: [ "mutant60", "mutant62", "mutant64", "mutant65", "mutant70", "mutant75", "mutant77", "mutant81", "mutant84", "mutant83", "caseStudy11", "mutant89", "caseStudy15", "mutant85", "mutant88", "caseStudy5", "caseStudy8", "caseStudy22", "mutant98", "caseStudy33", "caseStudy35", "mutant30", "mutant0", "mutant59", "mutant58", "mutant68", "mutant67", "mutant72", "mutant79", "mutant76", "mutant86", "mutant92", "mutant90", "caseStudy21", "caseStudy24", "caseStudy26", "caseStudy27", "mutant99", "mutant34", "mutant31", "caseStudy48", "mutant50", "mutant57", "mutant56", "mutant55", "mutant69", "mutant78", "caseStudy16", "caseStudy17", "caseStudy20", "mutant97", "caseStudy29", "mutant47", "mutant44", "mutant66", "caseStudy10", "caseStudy12", "caseStudy13", "mutant101", "caseStudy9", "mutant96", "caseStudy18", "caseStudy32", "mutant6", "caseStudy52", "mutant1", "mutant46", "mutant42", "mutant43", "mutant39", "mutant51", "mutant53", "caseStudy14", "mutant87", "mutant93", "caseStudy23", "caseStudy25", "caseStudy19", "mutant37", "mutant40", "mutant28", "mutant41" ]
+
+  - name: "lang_project"
+    path: "java/src/main/java/paper/pss/exp/lang_project"
+    partition_num: 9
+    mutants: [ "mutant23", "mutant25", "mutant26", "mutant28", "mutant19", "mutant31" ]
+  
+  - name: "math1_project"
+    path: "java/src/main/java/paper/pss/exp/math1_project"
+    partition_num: 12
+    mutants: [ "mutant40", "caseStudy30", "mutant46", "mutant48", "mutant47", "mutant20", "caseStudy29", "mutant39", "mutant38", "mutant19", "mutant18", "mutant51", "mutant14", "mutant49" ]
+
+  - name: "math2_project"
+    path: "java/src/main/java/paper/pss/exp/math2_project"
+    partition_num: 4
+    mutants: [ "mutant1", "mutant2", "mutant3", "mutant4", "mutant5", "mutant6", "mutant7", "mutant8", "mutant9", "mutant10", "mutant11", "mutant12", "mutant13", "mutant14", "mutant15", "mutant16", "mutant17", "mutant18", "mutant19", "mutant20", "mutant21", "mutant22", "mutant23", "mutant24", "mutant25", "mutant26", "mutant27", "mutant28", "mutant29", "mutant30", "mutant31", "mutant32", "mutant33", "mutant34", "mutant35" ]
+
+  - name: "geometricSum_project"
+    path: "python/geometricSum"
+    partition_num: 7
+    mutants: ["mutant_9", "mutant_1","mutant_10","mutant_7"]
+
+  - name: "incomeTax_project"
+    path: "python/incomeTax"
+    partition_num: 6
+    mutants: ["mutant_22","mutant_27","mutant_13","mutant_7","mutant_29","mutant_31","mutant_15","mutant_21","mutant_12","mutant_19","mutant_16","mutant_8","mutant_6","mutant_14","mutant_9","mutant_23","mutant_3","mutant_24"]
+
+  - name: "mortgageRate_project"
+    path: "python/mortgageRate"
+    partition_num: 2
+    mutants: ["mutant_3","mutant_5","mutant_4","mutant_6"]
